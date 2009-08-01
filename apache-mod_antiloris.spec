@@ -5,7 +5,7 @@
 
 Summary:	Protect apache against the slowloris attack
 Name:		apache-%{mod_name}
-Version:	0.3
+Version:	0.4
 Release: 	%mkrel 1
 Group:		System/Servers
 License:	Apache License
@@ -65,4 +65,3 @@ rm -rf %{buildroot}
 %doc README ChangeLog	
 %attr(0644,root,root) %config(noreplace) %{_sysconfdir}/httpd/modules.d/%{mod_conf}
 %attr(0755,root,root) %{_libdir}/apache-extramodules/%{mod_so}
-
