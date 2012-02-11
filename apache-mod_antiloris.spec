@@ -6,7 +6,7 @@
 Summary:	Protect apache against the slowloris attack
 Name:		apache-%{mod_name}
 Version:	0.4
-Release: 	%mkrel 4
+Release: 	%mkrel 5
 Group:		System/Servers
 License:	Apache License
 URL:		ftp://ftp.monshouwer.eu/pub/linux/mod_antiloris/
